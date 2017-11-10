@@ -34,18 +34,23 @@ def host_to_ip(hostname):
 # returns a list of tuples with routers ip and rtt
 def routers_in_specific_ttl(dest,ttl,rafaga):
 	routers = []
+	llegue = False
 	for i in range(rafaga):
 		packet = IP(dst=dest,ttl=ttl) / ICMP ()
 		ans,unans = sr(packet, verbose=0)
 		sent = datetime.fromtimestamp(ans[0][0].sent_time)
 		recived = datetime.fromtimestamp(ans[0][1].time)
-		rtt = int(recived - sent) * 1000
-		if ans[0][1].sprintf('%type%') == 'time-exceeded':
+		rtt = (recived - sent).total_seconds() * 1000
+		if ans[0][1].sprintf('%type%') == '11':
 			r = ans[0][1].sprintf('%src%')
 			routers.append((r,rtt))
-		if ans[0][1].sprintf('%type%') == '':
-			pass
-	return routers
+		if ans[0][1].sprintf('%type%') == '0':
+			r = ans[0][1].sprintf('%src%')
+			routers.append((r,rtt))
+			llegue = True
+		#if ans[0][1].sprintf('%type%') == '':
+		#	pass
+	return routers, llegue
 
 #return host ip, rtt
 def sacar_host_mediana(list_of_host):
@@ -83,13 +88,13 @@ def printear_a_json():
 def what_continent_belong(list_of_host):
 	list_of_host[0].salto_intercontinental_by_api = 'false'
 	for indice in range(1,len(list_of_host)):
-		list_of_host[indice].continent = continent_of_ip(list_of_host[indice])
+		list_of_host[indice].continent = continent_of_ip(list_of_host[indice].ip_address)
 		if list_of_host[indice-1].continent == 'null' or list_of_host[indice].continent == 'null':
 			list_of_host[indice].is_intercontinental = 'null'	 
 		else:
-			list_of_host[indice].salto_intercontinental_by_api = str(list_of_host[indice-1],continent != list_of_host[indice],continent)
+			list_of_host[indice].salto_intercontinental_by_api = str(list_of_host[indice-1].continent != list_of_host[indice].continent)
 
-def traceroute(dest):
+def traceroute(dest,rafaga):
 	try:
 		socket.inet_aton(dest)
 	except socket.error:
@@ -98,22 +103,31 @@ def traceroute(dest):
 		except socket.gaierror:
 			print "No entendi ese host"
 			return 1
-	rafaga = 10
 	list_of_host = []
 	#Set max ttl to 32 cause traceroute default does that
 	for ttl in range(1,32):
-		host_rafaga = routers_in_specific_ttl(dest,ttl,rafaga)
+		host_rafaga, llegue = routers_in_specific_ttl(dest,ttl,rafaga)
 	 	hop_ip,rtt = sacar_host_mediana(host_rafaga)
 		router_temp = Router(hop_ip,rtt,ttl)
 		list_of_host.append(router_temp)
+		if llegue:
+			break
 	# So here I have my list of routers in each ttl iteration
 	# then we need to know which continent belongs
 	what_continent_belong(list_of_host)
+	for l in list_of_host:
+		print l.ip_address,
+		print l.rtt,
+		print l.continent,
+		print l.salto_intercontinental,
+		print l.salto_intercontinental_by_api,
+		print l.hop_num
 	# So now we need to apply the algorith to detect outliers based in rtt
 	#outliers(list_of_host)
 	#printear_a_json(list_of_host)
-	print list_of_host
+
 if __name__ == '__main__':
 	arg = sys.argv[1:]
 	dest = arg[0]
-	traceroute(dest)
+	rafaga = arg[1]
+	traceroute(dest,int(rafaga))
