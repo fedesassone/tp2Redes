@@ -14,7 +14,6 @@ dicc_country_continent = {"AD": "Europe","AE": "Asia","AF": "Asia","AG": "Americ
 GEOIPURL = "http://www.freegeoip.net/json/"
 
 #Router Class
-
 class Router:
 	"""docstring for hopers"""
 	def __init__(self, host_ip, rtt, hop_number):
@@ -24,7 +23,6 @@ class Router:
 		self.salto_intercontinental = 'false'
 		self.salto_intercontinental_by_api = 'false'
 		self.hop_num = hop_number
-
 
 #Some utils functions
 
@@ -115,13 +113,19 @@ def traceroute(dest,rafaga):
 	# So here I have my list of routers in each ttl iteration
 	# then we need to know which continent belongs
 	what_continent_belong(list_of_host)
-	for l in list_of_host:
-		print l.ip_address,
-		print l.rtt,
-		print l.continent,
-		print l.salto_intercontinental,
-		print l.salto_intercontinental_by_api,
-		print l.hop_num
+	list_para_json = []
+	for i in range(len(list_of_host)):
+		dicc_para_json={"rtt":list_of_host[i].rtt, "ip_address":list_of_host[i].ip_address, "salto_intercontinental":list_of_host[i].salto_intercontinental, "hop_number":list_of_host[i].hop_num}
+		list_para_json.append(dicc_para_json)
+
+	print json.dumps(list_para_json, indent=2)
+	#for l in list_of_host:
+	#	print l.ip_address,
+	#	print l.rtt,
+	#	print l.continent,
+	#	print l.salto_intercontinental,
+	#	print l.salto_intercontinental_by_api,
+	#	print l.hop_num
 	# So now we need to apply the algorith to detect outliers based in rtt
 	#outliers(list_of_host)
 	#printear_a_json(list_of_host)
