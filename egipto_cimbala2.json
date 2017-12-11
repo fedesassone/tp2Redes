@@ -1,0 +1,272 @@
+[
+  {
+    "rtt": 2.213, 
+    "hop_number": 1, 
+    "ip_address": "192.168.1.1", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 14.77, 
+    "hop_number": 2, 
+    "ip_address": "10.16.128.1", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 15.338, 
+    "hop_number": 3, 
+    "ip_address": "10.242.0.113", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 15.26, 
+    "hop_number": 4, 
+    "ip_address": "195.22.220.93", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 14.212000000000002, 
+    "hop_number": 5, 
+    "ip_address": "195.22.220.92", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 296.221, 
+    "hop_number": 6, 
+    "ip_address": "195.22.218.41", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 307.681, 
+    "hop_number": 7, 
+    "ip_address": "195.22.197.250", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 8, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 9, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 10, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 11, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 12, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 13, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 14, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 15, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 16, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 17, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 18, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 19, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 20, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 21, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 22, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 23, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 24, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 25, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 26, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 27, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 28, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 29, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 30, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 31, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 32, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 33, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 34, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 35, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 36, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 37, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 38, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 39, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 40, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 41, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 42, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 43, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 44, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }
+]
+
+-34.6033,-58.3816
+41.8660011292,12.4969997406
+41.8660011292,12.4969997406
+41.8660011292,12.4969997406
+41.6073989868,12.5416002274

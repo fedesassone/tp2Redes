@@ -1,0 +1,130 @@
+Error en el request
+Error en el request
+[
+  {
+    "rtt": 2.934, 
+    "hop_number": 1, 
+    "ip_address": "192.168.1.1", 
+    "continent": "null", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 13.994, 
+    "hop_number": 2, 
+    "ip_address": "10.16.128.1", 
+    "continent": "null", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 13.168, 
+    "hop_number": 3, 
+    "ip_address": "10.242.0.113", 
+    "continent": "null", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 14.349, 
+    "hop_number": 4, 
+    "ip_address": "208.178.195.214", 
+    "continent": "America", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 15.697, 
+    "hop_number": 5, 
+    "ip_address": "208.178.195.213", 
+    "continent": "America", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 140.467, 
+    "hop_number": 6, 
+    "ip_address": "67.17.99.233", 
+    "continent": "America", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 7, 
+    "ip_address": "null", 
+    "continent": "null", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 8, 
+    "ip_address": "null", 
+    "continent": "null", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 256.306, 
+    "hop_number": 9, 
+    "ip_address": "212.162.44.114", 
+    "continent": "Europe", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 299.037, 
+    "hop_number": 10, 
+    "ip_address": "80.64.96.228", 
+    "continent": "Europe", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 291.13, 
+    "hop_number": 11, 
+    "ip_address": "80.64.96.228", 
+    "continent": "Europe", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 290.00399999999996, 
+    "hop_number": 12, 
+    "ip_address": "80.64.103.9", 
+    "continent": "Europe", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 280.705, 
+    "hop_number": 13, 
+    "ip_address": "185.44.12.155", 
+    "continent": "Europe", 
+    "salto_intercontinental": "false"
+  }, 
+  {
+    "rtt": 291.56, 
+    "hop_number": 14, 
+    "ip_address": "185.44.15.196", 
+    "continent": "Europe", 
+    "salto_intercontinental": "false"
+  }
+]
+
+10.16.128.1 
+10.242.0.113 
+208.178.195.214 
+208.178.195.213 
+67.17.99.233 
+212.162.44.114 
+80.64.96.228 
+80.64.103.9 
+185.44.12.155 
+185.44.15.196
+
+segundo el de arriba de ee uu
+aleman el cuarto
+moscu el quinto
+y los otors dos ultimos
+
+
+
+-34.6033,-58.3816
+36.8372001648,-76.1464004517
+36.8372001648,-76.1464004517
+25.7616996765,-80.1918029785
+51.5796012878,8.09414958954
+56.5889015198,36.2332992554
+59.9320983887,30.1968002319
+60.0783996582,30.2908000946
+60.0783996582,30.2908000946

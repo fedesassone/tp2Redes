@@ -1,0 +1,112 @@
+[
+  {
+    "rtt": 2.397, 
+    "hop_number": 1, 
+    "ip_address": "192.168.1.1", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 15.25, 
+    "hop_number": 2, 
+    "ip_address": "10.16.128.1", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 14.183, 
+    "hop_number": 3, 
+    "ip_address": "10.242.0.113", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 12.547, 
+    "hop_number": 4, 
+    "ip_address": "195.22.220.93", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 14.86, 
+    "hop_number": 5, 
+    "ip_address": "195.22.220.93", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 248.381, 
+    "hop_number": 6, 
+    "ip_address": "195.22.209.61", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 248.644, 
+    "hop_number": 7, 
+    "ip_address": "149.3.183.27", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 8, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 9, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 10, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 11, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 12, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 13, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": "null", 
+    "hop_number": 14, 
+    "ip_address": "null", 
+    "salto_intercontinental": "null"
+  }, 
+  {
+    "rtt": 270.529, 
+    "hop_number": 15, 
+    "ip_address": "176.32.106.133", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 264.72, 
+    "hop_number": 16, 
+    "ip_address": "178.236.14.158", 
+    "salto_intercontinental": false
+  }, 
+  {
+    "rtt": 262.819, 
+    "hop_number": 17, 
+    "ip_address": "178.236.7.220", 
+    "salto_intercontinental": false
+  }
+]
+
+-34.6033,-58.3816
+41.8660011292,12.4969997406
+51.5074005127,-0.127757996321
+41.8638000488,12.4969997406
+53.3389015198,-6.2595000267
+53.3389015198,-6.2595000267
+53.3389015198,-6.2595000267
